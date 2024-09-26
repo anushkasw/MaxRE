@@ -36,34 +36,6 @@ def get_test_example(example_path, reltoid):
 
 ## The following functions generate prompts for demonstrations
 def auto_generate_example(example_dict, reltoid, idtoprompt, num_per_rel, num_na, random_label, reasoning, demo):
-    # #ratio = 0.5
-    # #num_per_rel = 4
-    # num_example = num_per_rel * (len(example_dict.keys()) - 1) + num_na
-    #
-    #
-    # #select_dict = {"0":0, "A":1,"B":2,"C":3,"D":4,"E":5,"F":6}
-    # #reltoalpha = {0:"0", 1:"A", 2:"B", 3:"C", 4:"D", 5:"E", 6:"F"}
-    # #reltoalpha = {0:"NONE", 1:"Physical", 2:"General and affiliation", 3:"Person and social", 4:"Organization and affiliation", 5:"Part and whole", 6:"Agent and artifact"}
-    # #reltoalpha = {0:"NONE", 1:"PHYSICAL", 2:"GENERAL AND AFFILIATION", 3:"PERSON AND SOCIAL", 4:"ORGANIZATION AND AFFILIATION", 5:"PART AND WHOLE", 6:"AGENT AND ARTIFACT"}
-    #        #else:
-    #         #    if random.random() > 0.9:
-    #         #        example_list.append(tmp_dict)
-    #         #    else:
-    #         #        continue
-    # #examples = [item for k,v in example_dict.items() for item in v]
-    # examples = []
-    # for relid in example_dict.keys():
-    #     if relid == 0:
-    #         examples.append(random.sample(example_dict[relid], num_na))
-    #     else:
-    #         examples.append(random.sample(example_dict[relid], num_per_rel))
-    #
-    #
-    # flat_examples = [item for sublist in examples for item in sublist]
-    # #print(len(examples))
-    # example_list = random.sample(flat_examples, num_example)
-    # #assert False
-
     example_list = [item for sublist in example_dict.values() for item in sublist]
     example_prompt = str()
     for tmp_dict in example_list:

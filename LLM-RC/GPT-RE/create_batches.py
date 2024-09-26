@@ -3,14 +3,11 @@ import os
 import random
 import time
 
-import openai
-
 from shared.prompt import generate_select_auto_prompt
 from arguments import get_args_parser
 from data_loader import get_train_example, get_test_example, auto_generate_example, \
     generate_ft_example, generate_lm_example, generate_knn_example
 from knn_simcse import get_demonstrations
-from gpt3_api import Demo
 from shared.const import get_id2prompt
 
 
