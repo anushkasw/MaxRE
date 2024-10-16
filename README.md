@@ -36,6 +36,3 @@ The original source code for the LLM-based algorithms can be found in the follow
 batch API can be found in the folder `LLM-RC`
 - [GPT-RE](https://github.com/yukinowan/gpt-re)
 - [UnleashLLM](https://github.com/zjunlp/DeepKE/blob/main/example/llm/UnleashLLMRE/README.md)
-
-
-### Some Analysis Scripts
