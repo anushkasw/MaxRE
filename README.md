@@ -5,7 +5,7 @@ This repository contains code associated with the paper "Maximizing Relation Ext
 
 ### Datasets
 The open-source datasets used for this study can be downloaded from the links below. Note that
-TACRED and RETACRED are not publicly available and can be downloaded from LDC. Use the script `Preprocessing/ent_annot` to extract entity type annotations using Stanford CoreNLP:
+TACRED and RETACRED are not publicly available and can be downloaded from LDC. Use the script `Preprocessing/ent_annot.py` to extract entity type annotations using Stanford CoreNLP:
 - [SemEval-2010 Task 8](https://github.com/sahitya0000/Relation-Classification)
 - [NYT10](https://github.com/truthless11/HRL-RE/tree/master)
 - [FewRel](https://thunlp.github.io/1/fewrel1.html)
