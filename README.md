@@ -39,8 +39,9 @@ batch API can be found in the folder `LLM-RC`
 
 
 ### Cite
-If you plan on using the paper and this repository for your research, please cite:
+If you plan on using any of our resources please cite the paper:
 
+```
 @ARTICLE{10747504,
   author={Swarup, Anushka and Bhandarkar, Avanti and Dizon-Paradis, Olivia P. and Wilson, Ronald and Woodard, Damon L.},
   journal={IEEE Access}, 
@@ -51,3 +52,4 @@ If you plan on using the paper and this repository for your research, please cit
   pages={167655-167682},
   keywords={Feature extraction;Data mining;Classification algorithms;Neural networks;Training;Software algorithms;Semantics;Performance analysis;Machine learning algorithms;Information retrieval;Information extraction;joint relation extraction;large language models;natural language processing;relation classification;relation extraction},
   doi={10.1109/ACCESS.2024.3494737}}
+```
