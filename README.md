@@ -1,6 +1,6 @@
 # Maximizing Relation Extraction Potential: A Data-Centric Study to Unveil Challenges and Opportunities
 
-This repository contains code associated with the paper "Maximizing Relation Extraction Potential: A Data-Centric Study to Unveil Challenges and Opportunities".
+This repository contains code associated with the paper ["Maximizing Relation Extraction Potential: A Data-Centric Study to Unveil Challenges and Opportunities"](https://ieeexplore.ieee.org/document/10747504).
 
 
 ### Datasets
@@ -36,3 +36,18 @@ The original source code for the LLM-based algorithms can be found in the follow
 batch API can be found in the folder `LLM-RC`
 - [GPT-RE](https://github.com/yukinowan/gpt-re)
 - [UnleashLLM](https://github.com/zjunlp/DeepKE/blob/main/example/llm/UnleashLLMRE/README.md)
+
+
+### Cite
+If you plan on using the paper and this repository for your research, please cite:
+
+@ARTICLE{10747504,
+  author={Swarup, Anushka and Bhandarkar, Avanti and Dizon-Paradis, Olivia P. and Wilson, Ronald and Woodard, Damon L.},
+  journal={IEEE Access}, 
+  title={Maximizing Relation Extraction Potential: A Data-Centric Study to Unveil Challenges and Opportunities}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={167655-167682},
+  keywords={Feature extraction;Data mining;Classification algorithms;Neural networks;Training;Software algorithms;Semantics;Performance analysis;Machine learning algorithms;Information retrieval;Information extraction;joint relation extraction;large language models;natural language processing;relation classification;relation extraction},
+  doi={10.1109/ACCESS.2024.3494737}}
